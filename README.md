@@ -48,10 +48,7 @@ You will also need a Firebase project to handle authentication and database.
 Installation:
 Clone the repository to your local machine:
 
-bash
 
-git clone https://github.com/your-username/hamoashraf.git
-Install the required dependencies:
 
 bash
 
