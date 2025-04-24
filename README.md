@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+Hamoashraf is a simple task management application that helps users organize and manage their daily tasks efficiently. The app allows users to add, update, view, and delete tasks with ease.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
+Task Management: Add, edit, and organize tasks.
 
-## Available Scripts
+Task Filtering: Filter tasks based on their completion status (Completed or Not Completed).
 
-In the project directory, you can run:
+Task Editing: Modify task details anytime.
 
-### `npm start`
+Email Verification: Ensure that users' emails are verified before accessing the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Account Deletion: Users can delete their account permanently.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive Design: A clean and easy-to-use interface that works across various devices.
 
-### `npm test`
+Technologies Used:
+Frontend: Built with React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend: Firebase for authentication, real-time database storage, and user management.
 
-### `npm run build`
+Routing: React Router for handling navigation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Firebase Hooks: React Firebase Hooks for seamless integration with Firebase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Moment.js: For displaying dates and times in a user-friendly format.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CSS: For styling and ensuring the app has a responsive, modern design.
 
-### `npm run eject`
+How to Use:
+Sign Up / Log In: Create an account or log in using your email and password.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Manage Tasks: Add tasks, set completion status, or edit existing tasks.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Task Filters: You can filter tasks by their completion status (Completed/Not Completed).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Account Deletion: If you wish to delete your account, you can do so from the profile settings.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Email Verification: After signing up, an email will be sent to verify your account.
 
-## Learn More
+Getting Started:
+To get started with the project locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Prerequisites:
+Make sure you have Node.js installed on your machine.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You will also need a Firebase project to handle authentication and database.
 
-### Code Splitting
+Installation:
+Clone the repository to your local machine:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
 
-### Analyzing the Bundle Size
+git clone https://github.com/your-username/hamoashraf.git
+Install the required dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
 
-### Making a Progressive Web App
+cd hamoashraf
+npm install
+Set up Firebase in the project by creating a Firebase project in the Firebase console and adding the credentials in the firebase/config.js file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run the application:
 
-### Advanced Configuration
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
+Features:
+User can sign up, log in, and manage tasks.
 
-### Deployment
+Admin can delete their account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Email verification process to ensure user authenticity.
 
-### `npm run build` fails to minify
+Real-time task updates via Firebase.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Screenshots:
+(Include any relevant screenshots or demo GIFs of your app in use.)
+
+License:
+This project is licensed under the MIT License - see the LICENSE file for detail
